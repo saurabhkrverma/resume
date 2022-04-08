@@ -2598,7 +2598,7 @@ body {
   background-color: #888 !important; }
 
 .bg-primary {
-  background-color: #378C3F !important; }
+  background-color: #105522 !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
@@ -5253,6 +5253,7 @@ Created using IcoMoon - icomoon.io
 .cc-contact-information {
   width: 100%;
   position: relative;
+  background-size: cover;
   overflow: hidden; }
   .cc-contact-information .cc-contact {
     padding: 8% 0 8% 20%; }
