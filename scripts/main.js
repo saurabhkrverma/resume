@@ -2,6 +2,11 @@
 // Don't forget to add it into respective layouts where this js file is needed
 
 $(document).ready(function() {
+
+  var expDiv = document.getElementById("total-exp");
+  const totalExp = new Date().getFullYear() - 2014;
+  expDiv.innerHTML = `${totalExp}+ years`;
+
   AOS.init( {
     // uncomment below for on-scroll animations to played only once
     // once: true  
